@@ -31,8 +31,8 @@ A secure Telegram bot for managing multiple Telegram accounts with session persi
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/alirezaprogrammermaker/telegram-account-manager.git
-   cd telegram-account-manager
+   git clone https://github.com/alirezaprogrammermaker/telegram_account_manager_bot.git
+   cd telegram_account_manager_bot
    ```
 
 2. **Create virtual environment:**
@@ -96,7 +96,7 @@ A secure Telegram bot for managing multiple Telegram accounts with session persi
 ## File Structure
 
 ```plaintext
-telegram-account-manager/
+telegram_account_manager_bot/
 ├── main.py                # Main bot application
 ├── requirements.txt       # Python dependencies
 ├── .env.example           # Environment template
@@ -105,6 +105,7 @@ telegram-account-manager/
 ├── sessions/              # Session files (auto-created)
 └── telegram_manager.db    # SQLite database (auto-created)
 ```
+
 
 ## Database Schema
 
