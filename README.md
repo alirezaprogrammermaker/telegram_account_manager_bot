@@ -50,18 +50,7 @@ accounts, making it ideal for use cases such as account management, marketing au
    pip install -r requirements.txt
    ```
 
-4. **Configure environment:**
-   ```bash
-   cp example.env.example example.env
-   ```
-   Edit .env with your credentials:
-   ```dotenv
-   BOT_TOKEN=YOUR_BOT_TOKEN_HERE
-   API_ID=YOUR_API_ID_HERE
-   API_HASH=YOUR_API_HASH_HERE
-   ```
-
-5. **Run the bot:**
+4. **Run the bot:**
    ```bash
    python main.py
    ```
