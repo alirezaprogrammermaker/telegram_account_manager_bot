@@ -48,12 +48,12 @@ A secure Telegram bot for managing multiple Telegram accounts with session persi
 
 4. **Configure environment:**
    ```bash
-   cp .env.example .env
+   cp example.env.example example.env
    ```
    Edit .env with your credentials:
    ```dotenv
-   BOT_TOKEN=your_bot_token_from_botfather
-   API_ID=your_api_id_from_my_telegram_org
+   BOT_TOKEN=YOUR_BOT_TOKEN_HERE
+   API_ID=YOUR_API_ID_HERE
    API_HASH=your_api_hash_from_my_telegram_org
    ```
 
