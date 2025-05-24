@@ -54,7 +54,7 @@ A secure Telegram bot for managing multiple Telegram accounts with session persi
    ```dotenv
    BOT_TOKEN=YOUR_BOT_TOKEN_HERE
    API_ID=YOUR_API_ID_HERE
-   API_HASH=your_api_hash_from_my_telegram_org
+   API_HASH=YOUR_API_HASH_HERE
    ```
 
 5. **Run the bot:**
