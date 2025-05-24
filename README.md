@@ -5,6 +5,15 @@ using [Telethon](https://docs.telethon.dev) – a powerful Python library for in
 This bot supports session persistence, Two-Factor Authentication (2FA), and automated interaction with multiple
 accounts, making it ideal for use cases such as account management, marketing automation, and bot-driven services.
 
+## ⚠️ Disclaimer
+
+The use of this bot is **solely at the user's own risk**.  
+The developers and maintainers of this project are **not responsible** for any misuse, violation of Telegram's terms of service, or account bans resulting from the use of this bot.  
+Users are **solely responsible** for complying with all applicable laws and regulations, as well as the terms of service of Telegram and any other platforms.
+
+> **Note:** Make sure to use this bot responsibly and in accordance with all relevant rules and guidelines.
+
+
 ## Features
 
 - ✨ Add multiple phone numbers
