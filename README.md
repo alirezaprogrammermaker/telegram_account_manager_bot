@@ -1,6 +1,9 @@
 # Telegram Account Manager Bot
 
-A secure Telegram bot for managing multiple Telegram accounts with session persistence and 2FA support.
+A secure and extensible Telegram bot for managing multiple Telegram accounts, built
+using [Telethon](https://docs.telethon.dev) – a powerful Python library for interacting with the Telegram API.  
+This bot supports session persistence, Two-Factor Authentication (2FA), and automated interaction with multiple
+accounts, making it ideal for use cases such as account management, marketing automation, and bot-driven services.
 
 ## Features
 
@@ -22,6 +25,7 @@ A secure Telegram bot for managing multiple Telegram accounts with session persi
 ## Installation
 
 ### Prerequisites
+
 - Python 3.8+
 - Telegram account
 - Bot token from @BotFather
@@ -106,7 +110,6 @@ telegram_account_manager_bot/
 └── telegram_manager.db    # SQLite database (auto-created)
 ```
 
-
 ## Database Schema
 
 The bot uses SQLite with three main tables:
@@ -157,7 +160,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Disclaimer
 
-This bot is for educational and legitimate account management purposes only. Users are responsible for complying with Telegram's Terms of Service and applicable laws.
+This bot is for educational and legitimate account management purposes only. Users are responsible for complying with
+Telegram's Terms of Service and applicable laws.
 
 ## Support & Contact
 
