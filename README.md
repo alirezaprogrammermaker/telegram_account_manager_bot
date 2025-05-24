@@ -95,16 +95,16 @@ A secure Telegram bot for managing multiple Telegram accounts with session persi
 
 ## File Structure
 
-\`\`\`
+```plaintext
 telegram-account-manager/
-├── main.py              # Main bot application
-├── requirements.txt     # Python dependencies
-├── .env.example         # Environment template
-├── .gitignore           # Git ignore rules
-├── README.md            # This file
-├── sessions/            # Session files (auto-created)
-└── telegram_manager.db  # SQLite database (auto-created)
-\`\`\`
+├── main.py                # Main bot application
+├── requirements.txt       # Python dependencies
+├── .env.example           # Environment template
+├── .gitignore             # Git ignore rules
+├── README.md              # This file
+├── sessions/              # Session files (auto-created)
+└── telegram_manager.db    # SQLite database (auto-created)
+```
 
 ## Database Schema
 
